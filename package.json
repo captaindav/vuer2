@@ -5,12 +5,10 @@
   "scripts": {
     "build": "node scripts/build.js",
     "clean": "node scripts/clean.sh",
-    "init:drupal:windows": "cp -R scripts/drupal packages/drupal && cd packages/drupal && composer install && lando poweroff && lando start && lando site-setup",
-    "init:drupal:mac": "cp -R scripts/drupal packages/drupal && cd packages/drupal && /usr/local/bin/composer.phar install && lando poweroff && lando start && lando site-setup",
     "lint": "lerna run lint --parallel --stream",
     "postinstall": "lerna bootstrap",
     "serve": "node scripts/serve.js",
-    "start": "cd packages/drupal && lando start"
+    "start": "cd drupal && ddev start"
   },
   "engines": {
     "node": ">= 17"
