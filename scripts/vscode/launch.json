@@ -17,7 +17,7 @@
       "port": 9003,
       "log": true,
       "pathMappings": {
-        "/app/": "${workspaceFolder}/packages/drupal",
+        "/app/": "${workspaceFolder}/docs/drupal",
       }
     },
     {

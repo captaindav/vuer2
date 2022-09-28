@@ -8,7 +8,7 @@
     "lint": "lerna run lint --parallel --stream",
     "postinstall": "lerna bootstrap",
     "serve": "node scripts/serve.js",
-    "start": "cd drupal && ddev start"
+    "start": "cd docs/drupal && ddev start"
   },
   "engines": {
     "node": ">= 17"

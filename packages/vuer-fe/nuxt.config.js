@@ -45,7 +45,7 @@ export default {
     // https://composition-api.nuxtjs.org/
     '@nuxtjs/composition-api/module',
   ],
-  
+
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://druxtjs.org/
@@ -76,7 +76,7 @@ export default {
   },
 
   druxt: {
-    baseUrl: 'http://drupal-outline.lndo.site',
+    baseUrl: 'http://drupal-9.ddev.site',
     schema: {
       filter: ['node--.*?--view'],
     },

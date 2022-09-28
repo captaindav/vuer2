@@ -19,17 +19,17 @@ export default {
   setup (props, context) {
     const { get } = pathify(context)
 
-    
+
     // outline_entry--test_vuer_endpoint
     // outline--outline
     // outline_entry--_DIR
-    
+
       const { DruxtClient } = require('druxt')
-      const druxt = new DruxtClient('http://drupal-outline.lndo.site')
+      const druxt = new DruxtClient('http://drupal-9.ddev.site')
       // const collection = druxt.getIndex() // gets all types
       const collection = druxt.getCollection('outline--outline')
       console.log('test', collection)
-    
+
 
     // treeview props
     const active = get('treeview/activeItem')
@@ -40,7 +40,7 @@ export default {
 
     return {
       content,
-    } 
+    }
   },
 }
 </script>

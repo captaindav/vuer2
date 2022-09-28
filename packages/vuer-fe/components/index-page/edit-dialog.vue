@@ -30,7 +30,7 @@ import pathify from '@/utils/pathify'
 
 export default {
   name: 'EditDialog',
-  
+
   setup (props, context) {
     const { get, sync } = pathify(context)
     const activeItem = get('treeview/activeItem')
@@ -39,7 +39,7 @@ export default {
     const src = computed(() => {
       const eid = activeItem && activeItem.value ? activeItem.value.eid : ''
       // const url = 'http://localhost:32770'
-      const url = 'http://drupal-outline.lndo.site'
+      const url = 'http://drupal-9.ddev.site'
       return eid ? `${url}/outline/entry/${eid}/edit` : ''
     })
 
