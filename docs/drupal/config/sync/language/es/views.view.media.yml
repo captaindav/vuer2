@@ -1,0 +1,25 @@
+display:
+  default:
+    display_options:
+      fields:
+        bundle:
+          label: Tipo
+        status:
+          settings:
+            format_custom_true: Publicado
+      pager:
+        options:
+          expose:
+            offset_label: Desplazamiento
+      filters:
+        bundle:
+          expose:
+            label: Tipo
+        status:
+          group_info:
+            group_items:
+              1:
+                title: Publicado
+        langcode:
+          expose:
+            label: Idioma

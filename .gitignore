@@ -1,6 +1,6 @@
 .DS_Store
 node_modules
-docs/drupal
+# docs/drupal
 
 # local env files
 .env.local

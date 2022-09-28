@@ -1,0 +1,23 @@
+display:
+  default:
+    display_options:
+      fields:
+        filename:
+          label: Nombre
+        changed:
+          label: 'Fecha de modificación'
+      pager:
+        options:
+          expose:
+            offset_label: Desplazamiento
+  page_2:
+    display_options:
+      fields:
+        entity_label:
+          label: Entidad
+        type:
+          label: 'Tipo de entidad'
+      pager:
+        options:
+          expose:
+            offset_label: Desplazamiento

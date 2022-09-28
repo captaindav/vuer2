@@ -1,0 +1,18 @@
+display:
+  default:
+    display_options:
+      fields:
+        type:
+          label: Tipo
+        message:
+          label: Mensaje
+        name:
+          label: Usuario
+      pager:
+        options:
+          expose:
+            offset_label: Desplazamiento
+      filters:
+        type:
+          expose:
+            label: Tipo
